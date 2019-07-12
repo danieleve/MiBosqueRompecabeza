@@ -758,4 +758,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/imac/Desktop/rompecabeza.apk
+  playerPath: /Users/imac/UNITY/rompecabeza mi bosque/Builds/Android.apk
