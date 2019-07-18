@@ -37,29 +37,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9324}
+      Script: {instanceID: 9400}
     - Class: 114
-      Script: {instanceID: 9330}
+      Script: {instanceID: 9406}
     - Class: 114
-      Script: {instanceID: 9336}
+      Script: {instanceID: 9412}
     - Class: 114
-      Script: {instanceID: 9380}
+      Script: {instanceID: 9456}
     - Class: 114
-      Script: {instanceID: 9382}
+      Script: {instanceID: 9458}
     - Class: 114
-      Script: {instanceID: 9402}
+      Script: {instanceID: 9478}
     - Class: 114
-      Script: {instanceID: 9540}
+      Script: {instanceID: 9616}
     - Class: 114
-      Script: {instanceID: 9780}
+      Script: {instanceID: 9856}
     - Class: 114
-      Script: {instanceID: 9896}
+      Script: {instanceID: 9972}
     - Class: 114
-      Script: {instanceID: 10032}
+      Script: {instanceID: 10108}
     - Class: 114
-      Script: {instanceID: 10262}
+      Script: {instanceID: 10338}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -758,4 +758,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/imac/UNITY/rompecabeza mi bosque/Builds/Android.apk
+  playerPath: C:/Users/ASUS/Documents/Unity  Daniel/rompecabezaappmibosque/MiBosqueRompecabeza/Builds/rompecabeza.apk
