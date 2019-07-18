@@ -90,12 +90,6 @@
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/imac/UNITY/rompecabeza mi bosque/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
-    <Reference Include="Editor">
-      <HintPath>/Users/imac/UNITY/rompecabeza mi bosque/Library/ScriptAssemblies/Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="XiaomiSupport">
-      <HintPath>/Users/imac/UNITY/rompecabeza mi bosque/Library/ScriptAssemblies/XiaomiSupport.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -281,12 +275,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/imac/UNITY/rompecabeza mi bosque/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="ChannelPurchase">
-      <HintPath>/Users/imac/UNITY/rompecabeza mi bosque/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityStore">
-      <HintPath>/Users/imac/UNITY/rompecabeza mi bosque/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.5f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
