@@ -13,8 +13,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -32,34 +34,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9302}
+    - Class: 114
+      Script: {instanceID: 9304}
+    - Class: 114
+      Script: {instanceID: 9310}
+    - Class: 114
+      Script: {instanceID: 9316}
+    - Class: 114
       Script: {instanceID: 9324}
     - Class: 114
-      Script: {instanceID: 9330}
+      Script: {instanceID: 9360}
     - Class: 114
-      Script: {instanceID: 9336}
+      Script: {instanceID: 9362}
     - Class: 114
-      Script: {instanceID: 9380}
+      Script: {instanceID: 9378}
     - Class: 114
-      Script: {instanceID: 9382}
+      Script: {instanceID: 9512}
     - Class: 114
-      Script: {instanceID: 9402}
+      Script: {instanceID: 9708}
     - Class: 114
-      Script: {instanceID: 9540}
+      Script: {instanceID: 9808}
     - Class: 114
-      Script: {instanceID: 9780}
+      Script: {instanceID: 9930}
     - Class: 114
-      Script: {instanceID: 9896}
+      Script: {instanceID: 10118}
     - Class: 114
-      Script: {instanceID: 10032}
-    - Class: 114
-      Script: {instanceID: 10262}
-    - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10176}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -709,7 +721,7 @@ ScriptsOnlyBuild:
     className: Pieza4
   - hash:
       serializedVersion: 2
-      Hash: bccd9ae68e323773da26d48334cfd6ec
+      Hash: 0989236e968d576a7025cbf49f954882
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameControl
@@ -758,4 +770,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/imac/UNITY/rompecabeza mi bosque/Builds/Android.apk
+  playerPath: /Users/imac/UNITY/rompecabeza mi bosque/Builds/demorompecabeza.apk
