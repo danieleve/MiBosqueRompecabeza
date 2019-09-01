@@ -3,6 +3,12 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CambioEscena
     - GameControl
+    - Pieza
+    - Pieza2
+    - Pieza3
+    - Pieza4
+    - Pieza5
+    - Pieza6
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -14,6 +20,55 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/BienHecho.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9326}
+    - Class: 114
+      Script: {instanceID: 9328}
+    - Class: 114
+      Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9340}
+    - Class: 114
+      Script: {instanceID: 9348}
+    - Class: 114
+      Script: {instanceID: 9384}
+    - Class: 114
+      Script: {instanceID: 9386}
+    - Class: 114
+      Script: {instanceID: 9874}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/InfoJuego.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -32,17 +87,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9324}
-    - Class: 114
       Script: {instanceID: 9326}
     - Class: 114
-      Script: {instanceID: 9338}
+      Script: {instanceID: 9328}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9340}
+    - Class: 114
+      Script: {instanceID: 9348}
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 9386}
+    - Class: 114
+      Script: {instanceID: 9874}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -72,34 +131,42 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 74
+    - Class: 61
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9324}
-    - Class: 114
       Script: {instanceID: 9326}
     - Class: 114
-      Script: {instanceID: 9332}
+      Script: {instanceID: 9328}
     - Class: 114
-      Script: {instanceID: 9338}
+      Script: {instanceID: 9334}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9340}
     - Class: 114
-      Script: {instanceID: 9382}
+      Script: {instanceID: 9348}
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 10322}
+      Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 9406}
+    - Class: 114
+      Script: {instanceID: 9544}
+    - Class: 114
+      Script: {instanceID: 9784}
+    - Class: 114
+      Script: {instanceID: 9874}
+    - Class: 114
+      Script: {instanceID: 9902}
+    - Class: 114
+      Script: {instanceID: 10038}
+    - Class: 114
+      Script: {instanceID: 10268}
+    - Class: 114
+      Script: {instanceID: 10326}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -134,21 +201,70 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9324}
-    - Class: 114
       Script: {instanceID: 9326}
     - Class: 114
-      Script: {instanceID: 9332}
+      Script: {instanceID: 9328}
     - Class: 114
-      Script: {instanceID: 9338}
+      Script: {instanceID: 9334}
     - Class: 114
-      Script: {instanceID: 9346}
+      Script: {instanceID: 9340}
     - Class: 114
-      Script: {instanceID: 9382}
+      Script: {instanceID: 9348}
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
-      Script: {instanceID: 12100}
+      Script: {instanceID: 9386}
+    - Class: 114
+      Script: {instanceID: 9874}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/NivelesRompecabeza.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9326}
+    - Class: 114
+      Script: {instanceID: 9328}
+    - Class: 114
+      Script: {instanceID: 9334}
+    - Class: 114
+      Script: {instanceID: 9340}
+    - Class: 114
+      Script: {instanceID: 9348}
+    - Class: 114
+      Script: {instanceID: 9384}
+    - Class: 114
+      Script: {instanceID: 9386}
+    - Class: 114
+      Script: {instanceID: 9874}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -679,6 +795,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CambioEscena
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Analytics.Editor.dll
     namespaceName: UnityEditor.Analytics
     className: AnalyticsEventTrackerEditor
@@ -844,15 +966,11 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CambioEscena
   platform: 13
   scenePathNames:
   - Assets/Scenes/MenuRompecabeza.unity
+  - Assets/Scenes/NivelesRompecabeza.unity
   - Assets/Scenes/JuegoRompecabeza.unity
   - Assets/Scenes/InfoJuego.unity
-  playerPath: /Users/imac/UNITY/rompecabeza mi bosque/Builds/demorompecabeza.apk
+  - Assets/Scenes/BienHecho.unity
+  playerPath: /Users/imac/UNITY/rompecabezaMiBosque/rompecabeza.apk

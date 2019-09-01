@@ -26,9 +26,17 @@ public class CambioEscena : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //carga la escena que le sigue (depende de la organización de escenas en el Build settong
     }
-    public void EscenaAnterior()
+    public void CargarJuego()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("JuegoRompecabeza");
+    }
+    public void CargarMenuRompe()
+    {
+        SceneManager.LoadScene("MenuRompecabeza");
+    }
+    public void CargarNivelesRompe()
+    {
+        SceneManager.LoadScene("NivelesRompecabeza");
     }
 }
 
