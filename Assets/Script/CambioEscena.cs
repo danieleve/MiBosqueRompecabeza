@@ -29,6 +29,12 @@ public class CambioEscena : MonoBehaviour
     public void CargarJuego()
     {
         SceneManager.LoadScene("JuegoRompecabeza");
+        Pieza.locked = false;
+        Pieza2.locked = false;
+        Pieza3.locked = false;
+        Pieza4.locked = false;
+        Pieza5.locked = false;
+        Pieza6.locked = false;
     }
     public void CargarMenuRompe()
     {

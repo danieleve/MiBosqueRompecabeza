@@ -50,6 +50,7 @@ public static bool locked;
                     else
                     {
                         transform.position = new Vector2(initialPosition.x, initialPosition.y);
+                       
                     }
                     break;
             }

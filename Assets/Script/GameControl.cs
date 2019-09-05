@@ -6,15 +6,13 @@ using UnityEngine.SceneManagement;
 public class GameControl : MonoBehaviour
 {
 
-    [SerializeField]
-    private GameObject winText;
+    private Vector2 initialPosition;
 
-    public Animator gameFinishPanelAnim;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        initialPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -23,7 +21,10 @@ public class GameControl : MonoBehaviour
         if(Pieza.locked && Pieza2.locked && Pieza3.locked && Pieza4.locked && Pieza5.locked && Pieza6.locked)
         {
             SceneManager.LoadScene("BienHecho");
-        }  
+        }
+        
+           
+
     }
 
 
