@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/CambioEscena.cs">
     <Files>
       <File FileName="Assets/Script/CambioEscena.cs" Line="37" Column="31" />
-      <File FileName="Assets/Script/AudioScript.cs" Line="16" Column="28" />
+      <File FileName="Assets/Script/AudioScript.cs" />
       <File FileName="Assets/Script/GameControl.cs" />
       <File FileName="Assets/Script/Pieza.cs" />
       <File FileName="Assets/Script/Pieza2.cs" />
@@ -10,7 +10,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="014dd6b7-cbe3-43f0-b383-dfed4b3b559d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2c139709-9aae-4274-963e-17bdbc46eeee" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
