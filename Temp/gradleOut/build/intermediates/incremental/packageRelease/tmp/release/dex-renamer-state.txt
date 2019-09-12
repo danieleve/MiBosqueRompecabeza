@@ -1,4 +1,0 @@
-#Tue Sep 10 00:30:45 ECT 2019
-base.0=/Users/imac/UNITY/rompecabezaMiBosque/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex

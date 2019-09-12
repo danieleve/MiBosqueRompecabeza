@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{70E5D1B3-783A-3082-583A-5A48FAE9E5A4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/CambioEscena.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Temporizador.cs">
     <Files>
       <File FileName="Assets/Script/CambioEscena.cs" Line="37" Column="31" />
       <File FileName="Assets/Script/AudioScript.cs" />
-      <File FileName="Assets/Script/GameControl.cs" />
+      <File FileName="Assets/Script/GameControl.cs" Line="28" Column="45" />
       <File FileName="Assets/Script/Pieza.cs" />
       <File FileName="Assets/Script/Pieza2.cs" />
+      <File FileName="Assets/Script/Temporizador.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2c139709-9aae-4274-963e-17bdbc46eeee" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="049f978a-e8e8-4e8d-9fd6-f7d3fa0d9ee5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -71,6 +71,7 @@
     <Compile Include="Assets\Script\Pieza4.cs" />
     <Compile Include="Assets\Script\Pieza5.cs" />
     <Compile Include="Assets\Script\Pieza6.cs" />
+    <Compile Include="Assets\Script\Temporizador.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/imac/UNITY/rompecabezaMiBosque/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
