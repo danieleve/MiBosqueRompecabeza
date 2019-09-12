@@ -65,12 +65,15 @@
     <Compile Include="Assets\Script\AudioScript.cs" />
     <Compile Include="Assets\Script\CambioEscena.cs" />
     <Compile Include="Assets\Script\GameControl.cs" />
+    <Compile Include="Assets\Script\GameControlSegundoNivel.cs" />
     <Compile Include="Assets\Script\Pieza.cs" />
     <Compile Include="Assets\Script\Pieza2.cs" />
     <Compile Include="Assets\Script\Pieza3.cs" />
     <Compile Include="Assets\Script\Pieza4.cs" />
     <Compile Include="Assets\Script\Pieza5.cs" />
     <Compile Include="Assets\Script\Pieza6.cs" />
+    <Compile Include="Assets\Script\Pieza7.cs" />
+    <Compile Include="Assets\Script\Pieza8.cs" />
     <Compile Include="Assets\Script\Temporizador.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/imac/UNITY/rompecabezaMiBosque/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

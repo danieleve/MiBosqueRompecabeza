@@ -25,6 +25,14 @@ public class CambioEscena : MonoBehaviour
     public void SiguienteEscena()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //carga la escena que le sigue (depende de la organización de escenas en el Build settong
+        Pieza.locked = false;
+        Pieza2.locked = false;
+        Pieza3.locked = false;
+        Pieza4.locked = false;
+        Pieza5.locked = false;
+        Pieza6.locked = false;
+        Pieza7.locked = false;
+        Pieza8.locked = false;
     }
     public void CargarJuego()
     {
@@ -43,6 +51,18 @@ public class CambioEscena : MonoBehaviour
     public void CargarNivelesRompe()
     {
         SceneManager.LoadScene("NivelesRompecabeza");
+    }
+    public void CargarSegundoNivel()
+    {
+        SceneManager.LoadScene("SegundoNivel");
+        Pieza.locked = false;
+        Pieza2.locked = false;
+        Pieza3.locked = false;
+        Pieza4.locked = false;
+        Pieza5.locked = false;
+        Pieza6.locked = false;
+        Pieza7.locked = false;
+        Pieza8.locked = false;
     }
 }
 

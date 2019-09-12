@@ -16,7 +16,7 @@ public class Temporizador : MonoBehaviour
 		startText.text = (timeLeft).ToString("0");
 		if (timeLeft < 0)
 		{
-            SceneManager.LoadScene("BienHecho");
+            SceneManager.LoadScene("VuelveAIntentar");
         }
 	}
 }

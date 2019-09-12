@@ -15,9 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/JuegoRompecabeza.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/InfoJuego.unity
-    guid: 8ab2581da5e61452e9a27e46f3b1d590
-  - enabled: 1
     path: Assets/Scenes/BienHecho.unity
     guid: 01bd2031be9a54471a33ca462ee5627e
+  - enabled: 1
+    path: Assets/Scenes/SegundoNivel.unity
+    guid: 90240fc0e5a5f41e3846f78eb5efcd1d
+  - enabled: 1
+    path: Assets/Scenes/VuelveAIntentar.unity
+    guid: 75e82437cff2846df872ba969b5c4488
+  - enabled: 1
+    path: Assets/Scenes/InfoJuego.unity
+    guid: 8ab2581da5e61452e9a27e46f3b1d590
   m_configObjects: {}
